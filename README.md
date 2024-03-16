@@ -1,36 +1,32 @@
-# Web Development Project 2 - *Geo Trip*
+# Web Development Project 3 - *Geo Trip*
 
 Submitted by: **Artem Guz**
 
-This web app: **This web app is a flashcard application designed to help users learn and test their knowledge interactively. It features a collection of cards, each displaying a question related to geography. When a user clicks on a card, it reveals the answer. Users can navigate through the cards randomly, and a counter displays the current card number and the total number of cards, helping users track their progress. The simple and intuitive interface makes it an effective tool for learning and testing geographical knowledge.**
+This web app: **This web app is a flashcard application designed to help users learn and test their knowledge interactively. It features a collection of cards, each displaying a question related to geography. When a user clicks on a card, it reveals the answer and now user can test their skills by input the answer. Users can navigate through the cards by hitting arrows, and a counter displays the current card number and the total number of cards, helping users track their progress. The simple and intuitive interface makes it an effective tool for learning and testing geographical knowledge.**
 
-Time spent: **12** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
-The following **required** functionality is completed:
+TThe following **required** functionality is completed:
 
-- [x] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
-- [x] **A single card at a time is displayed, only showing one of the components of the information pair**
-- [x] **A list of card pairs is created**
-- [x] **Clicking on the card shows the corresponding component of the information pair**
-- [x] **Clicking the next button displays a random new card**
+- [x] **The user can enter their guess in a box before seeing the flipside of the card**
+- [x] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
+- [x] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
+- [x] **A next button is displayed on the card and can be used to navigate to the next card in a set sequence**
 
 The following **optional** features are implemented:
 
-- [x] Cards contains images in addition to or in place of text
-- [x] Cards have different visual styles such as color based on their category
-  - [x] *visual style implemented*
-
-The following **additional** features are implemented:
-
-* [x] **Implemented animation when click on the card**
+- [x] A shuffle button is used to randomize the order of the cards
+- [x] A user's answer may be counted as correct even when it is slightly different from the target answer
+- [x] A counter displays the user's current and longest streak of correct responses
+- [x] A user can mark a card that they have mastered and have it removed from the pool of answers as well as added to a list of mastered cards
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-![CodePathProject2](https://github.com/arteeguz/CodePath_WEB102/assets/118378371/1030ec8a-0c1e-4928-beea-35018c6b6098)
+![Project3-gif](https://github.com/arteeguz/CodePath_WEB102_Project3/assets/118378371/ec591251-19eb-4929-8fdd-18276d36e927)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with OBS  
@@ -41,7 +37,7 @@ GIF created with OBS
 
 ## Notes
 
-Creating the flip animation for the flashcards turned out to be more challenging than I anticipated. Despite my efforts, I couldn't get the animation to work exactly as I had envisioned. However, I still managed to implement a nice, simpler animation that added a good level of interactivity to the flashcards. This experience taught me to adapt and find creative solutions when faced with technical limitations.
+The hardest part is adding the shuffle feature for the cards. It's tricky because you need to understand a specific shuffling method to mix up the cards correctly. Also, making sure the app keeps track of the new order of the cards and shows this change to the user can be quite challenging. Plus, you have to test it carefully to make sure the shuffle is truly random.
 
 ## License
 
